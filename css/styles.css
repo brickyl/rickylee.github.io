@@ -1,0 +1,141 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#index-page, #portfolio-page {
+    background-color: #283845;
+}
+
+#about-page {
+    background-color: #EFEEE6;
+    
+}
+
+#contact-page {
+    background-color: #F2D492;
+    text-align: center;
+}
+
+#name-home {
+    position: fixed;
+    transform: translateY(-50%);
+    top: 45%;
+    left: 38%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 6em;
+    font-style: italic;
+    color: #EFEEE6;
+    line-height: 95%;
+}
+
+#nameback-home {
+    position: fixed;
+    transform: translateY(-50%);
+    top: 37.4%;
+    left: 41.35%;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 6em;
+    font-weight: 700;
+    opacity: 0.3;
+    font-style: italic;
+    color: #F2D492;
+    
+}
+
+#bottom-home{
+    position: fixed;
+    width: 34%;
+    left: 37%;
+    top: 58%;
+    border: 2px solid #F2D492;
+    opacity: 1;
+    color: #F2D492;
+}
+
+#angledline-home{
+    position: fixed;
+    top: 29%;
+    width: 10%;
+    height: 28%;
+    left: 29%;
+
+    border-right: 4px solid #F2D492;
+    transform: skew(-14deg);
+}
+
+#subtext-home {
+    position: fixed;
+    text-align: left;
+    top: 64%;
+    left: 39%;
+    color: #EFEEE6;
+    font-family: 'Nunito Sans';
+    letter-spacing: 0.13em;
+}
+
+#linkedin-home {
+    position: fixed;
+    width: 40px;
+    border-radius: 20px;
+    top: 48.5%;
+    right: 56%;
+}
+
+#github-home {
+    position: fixed;
+    width: 40px;
+    top: 48.5%;
+    border-radius: 20px;
+    right: 53%;
+}
+
+#email-home {
+    position: fixed;
+    width: 40px;
+    border-radius: 20px;
+    top: 48.5%;
+    right: 50%;
+}
+
+a {	
+	color: #0F4970;
+	text-decoration: none;
+}
+
+/* Style inspired by w3schools button guide: https://www.w3schools.com/css/css3_buttons.asp */
+.button {
+	background-color: #EFEEE6; 
+	border: 2px solid #202C39;
+	border-radius: 8px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+    
+}
+
+.button:hover {
+	background-color: #283845; 
+	color: #EFEEE6;
+}
+
+input {
+    padding: 6px 10px;
+}
+
+input:focus {
+    transition-duration: 0.2s;
+    border: 3px solid #202C39;
+}
+
+#linkportfolio {
+    position: fixed;
+    top: 86%;
+    left: 39%;
+    color: #EFEEE6;
+    font-size: 1.4em;
+    letter-spacing: 0em;
+    font-family: "Nunito Sans";
+}
