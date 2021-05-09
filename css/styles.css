@@ -1,8 +1,18 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
+    background-color: #efeee6;
 }
 
-#index-page, #portfolio-page {
+#navbar {
+    background-color: #EFEEE6;
+}
+
+#index-page{
+    background-color: #202C39;
+}
+
+
+#portfolio-page {
     background-color: #283845;
 }
 
@@ -16,86 +26,91 @@ body {
     text-align: center;
 }
 
-#name-home {
-    position: fixed;
-    transform: translateY(-50%);
-    top: 45%;
-    left: 38%;
+#upper-home {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 6em;
+    font-size: 4.5em;
     font-style: italic;
     color: #EFEEE6;
     line-height: 95%;
+
+}
+
+#lower-home {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 4.5em;
+    font-style: italic;
+    color: #EFEEE6;
+    line-height: 95%;
+    display: inline-block;
+    height: 1em;
+    
+}
+
+#lname {
+    display: inline;
 }
 
 #nameback-home {
-    position: fixed;
-    transform: translateY(-50%);
-    top: 37.4%;
-    left: 41.35%;
-
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 6em;
+    font-size: 1em;
     font-weight: 700;
     opacity: 0.3;
     font-style: italic;
     color: #F2D492;
-    
+    position: relative;
+    bottom: 2.12em;
+    right: 0.12em;
+}
+
+#angled-home{
+    width: 10%;
+    position: relative;
+    bottom: 3.1em;
+    height: 2.15em;
+    border-right: 5px solid #F2D492;
+    transform: skew(-14deg);
+    position: relative;
+    right: 1em;
 }
 
 #bottom-home{
-    position: fixed;
-    width: 34%;
-    left: 37%;
-    top: 58%;
+    position: relative;
+    width: 30em;
+    right: 5em;
+    bottom: 2em;
     border: 2px solid #F2D492;
-    opacity: 1;
     color: #F2D492;
 }
 
-#angledline-home{
-    position: fixed;
-    top: 29%;
-    width: 10%;
-    height: 28%;
-    left: 29%;
-
-    border-right: 4px solid #F2D492;
-    transform: skew(-14deg);
+#subtext-home {
+    position: relative;
+    right: 2em;
+    bottom: 1em;
+    color: #EFEEE6;
+    letter-spacing: 0.1em;
 }
 
-#subtext-home {
-    position: fixed;
-    text-align: left;
-    top: 64%;
-    left: 39%;
+#subtext-home a {
     color: #EFEEE6;
-    font-family: 'Nunito Sans';
-    letter-spacing: 0.13em;
+}
+
+#subtext-home a:hover {
+    color: #F3A068;
 }
 
 #linkedin-home {
-    position: fixed;
-    width: 40px;
+    width: 1.7em;
     border-radius: 20px;
-    top: 48.5%;
-    right: 56%;
 }
 
 #github-home {
-    position: fixed;
-    width: 40px;
-    top: 48.5%;
+    width: 1.7em;
     border-radius: 20px;
-    right: 53%;
 }
 
 #email-home {
-    position: fixed;
-    width: 40px;
+    width: 1.7em;
     border-radius: 20px;
-    top: 48.5%;
-    right: 50%;
 }
 
 a {	
@@ -103,7 +118,46 @@ a {
 	text-decoration: none;
 }
 
-/* Style inspired by w3schools button guide: https://www.w3schools.com/css/css3_buttons.asp */
+#media-home {
+    display: inline-block;
+    font-size: 0.3em;
+    vertical-align: top;    
+}
+
+#navbar {
+	border-bottom: 1px dotted #ccc;
+}
+
+#navbar nav {
+	position: sticky;
+    padding: .5em 0.75em .6em .75em; 
+}
+
+#navbar nav a {
+	font-size: 1.3em;
+	font-weight: 400;
+	padding: 15px;
+	color: #202C39;
+}
+
+#navbar nav a.selected {
+	background: #ced8d0;
+	color: #283845;	
+}
+
+#navbar nav a:hover {	
+	background: #ced8d0;
+	color: #202C39;
+    font-weight: 700;
+}
+
+#name-nav {
+    display: inline;
+    font-size: 1.5em;
+    letter-spacing: 0.01em;
+    float: right;
+}
+
 .button {
 	background-color: #EFEEE6; 
 	border: 2px solid #202C39;
@@ -113,7 +167,6 @@ a {
 	text-decoration: none;
 	display: inline-block;
 	transition-duration: 0.4s;
-    
 }
 
 .button:hover {
@@ -139,3 +192,4 @@ input:focus {
     letter-spacing: 0em;
     font-family: "Nunito Sans";
 }
+
