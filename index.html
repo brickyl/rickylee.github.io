@@ -16,8 +16,12 @@
 
         <!-- External Links to CSS files -->
         <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body id="background-home-page">
         <div class="container"> 
             <div class="row" id="navbar">
                 <nav>
@@ -26,15 +30,14 @@
                     <a href="resume.pdf">Resume</a>
                     <a href="contact.html">Contact</a>
                     <div id="name-nav">
-                        Ricky Lee
+                        Ricky Lee &nbsp &nbsp &nbsp
                     </div> 
                 </nav>
-                
             </div>
         </div>
         
         <div class="container">
-            <div id="index-page">
+            <div id="home-page">
                 <br><br><br>
                 <div class="row" id="row1">
                     <div class="col-5"></div>
@@ -54,29 +57,86 @@
                                     <img id="email-home" src="./images/embw.PNG" alt="email">
                                 </a>
                             </div>
-                            <div id="lname">
-                                Lee
-                            </div>
+                            
                             <div id="nameback-home">
                                 Ricky
                             </div>
                             <div id="angled-home"></div>
                             
                         </div>
-
-                        
+                        <div id="lname">
+                            Lee
+                        </div>
                         <div id="bottom-home"></div>
                         <div id="subtext-home">
-                            Welcome to Ricky Lee's website! <br>I'm an Information Systems major at Carnegie Mellon University
-                            working as a data science intern for <a href="http://www.biomotivate.com/">Biomotivate</a>. <br><br><br>
-                            
+                            Welcome to Ricky Lee's website! <br>I'm an Information Systems major at 
+                            <a href="https://www.cmu.edu/">Carnegie Mellon University</a>
+                            working as a data science intern for <a href="http://www.biomotivate.com/">Biomotivate</a>. <br><br><br>  
                         </div>
                             
                     </div>
                     <div class="col-3"></div>
                 </div>
-                
             </div>
+        </div>
+
+        <div class="container">
+            <div id="portfolio-page">
+                <br><br><br>
+                <h1>
+                    PORTFOLIO
+                </h1>
+                <br>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <img data-toggle="modal" data-target="#myModal" src="./images/placeholder-project.png">
+                        <div class="proj-title">
+                            Project 1: Studying the effects of having pet cats on general happiness.
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <a href="#"><img src="./images/placeholder-project.png"></a>
+                        <div class="proj-title">
+                            Project 1: Studying the effects of having pet cats on general happiness.
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="container">
+            <h2>Modal Example</h2>
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+          
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+              
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        <div class="spacer">
+            <br><br><br><br><br>
         </div>
 
     </body>

@@ -7,18 +7,21 @@ body {
     background-color: #EFEEE6;
 }
 
-#index-page{
+#home-page {
     background-color: #202C39;
+    overflow-x: hidden;
 }
 
+#background-home-page {
+    background-color: #EFEEE6; 
+}
 
 #portfolio-page {
-    background-color: #283845;
+    background-color: #EFEEE6;
 }
 
 #about-page {
     background-color: #EFEEE6;
-    
 }
 
 #contact-page {
@@ -27,31 +30,34 @@ body {
 }
 
 #upper-home {
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 4.5em;
     font-style: italic;
     color: #EFEEE6;
     line-height: 95%;
-
 }
 
 #lower-home {
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 4.5em;
     font-style: italic;
     color: #EFEEE6;
     line-height: 95%;
     display: inline-block;
-    height: 1em;
-    
+    height: 1em;   
 }
 
 #lname {
-    display: inline;
+    display: inline-block;
+    font-size: 4.5em;
+    font-style: italic;
+    color: #EFEEE6;
+    line-height: 95%;
+
+    position: relative;
+    bottom: 0.9em;
+    right: 0.5em;
 }
 
 #nameback-home {
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 1em;
     font-weight: 700;
     opacity: 0.3;
@@ -91,7 +97,7 @@ body {
 }
 
 #subtext-home a {
-    color: #EFEEE6;
+    color: #F2D492;
 }
 
 #subtext-home a:hover {
@@ -114,7 +120,6 @@ body {
 }
 
 a {	
-	color: #0F4970;
 	text-decoration: none;
 }
 
@@ -125,24 +130,28 @@ a {
 }
 
 #navbar {
-	border-bottom: 1px dotted #ccc;
+    position: relative;
+    left: 0.75em;
 }
 
 #navbar nav {
 	position: sticky;
-    padding: .5em 0.75em .6em .75em; 
+    padding: .5em 0em .6em 0em; 
+    
 }
 
 #navbar nav a {
 	font-size: 1.3em;
 	font-weight: 400;
-	padding: 15px;
+    padding: 15px;
+    
 	color: #202C39;
 }
 
 #navbar nav a.selected {
 	background: #ced8d0;
 	color: #283845;	
+    font-weight: 700;
 }
 
 #navbar nav a:hover {	
@@ -183,13 +192,31 @@ input:focus {
     border: 3px solid #202C39;
 }
 
-#linkportfolio {
-    position: fixed;
-    top: 86%;
-    left: 39%;
-    color: #EFEEE6;
-    font-size: 1.4em;
-    letter-spacing: 0em;
-    font-family: "Nunito Sans";
+#message {
+    width: 30em;
+    height: 15em;
 }
 
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#portfolio-page img {
+    width: 100%;
+    height: auto;
+}
+
+.proj-title {
+    font-size: 1.5em;
+}

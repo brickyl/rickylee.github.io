@@ -16,28 +16,52 @@
 
         <!-- External Links to CSS files -->
         <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
-    </head>
-    <body id="contact-page">
-        <div id="title-con">
-            <h1>CONTACT</h1>
-        </div>
         
-        <!-- Contact Form -->
-        <h3>Feel free to contact me for any reason!</h3>
-		<div id="container-graph"></div>
-		<p>This form sends your message to my email.</p>
-		<form action="mailto:rickyl@andrew.cmu.edu" onsubmit="return validate()">
-		<fieldset>
-			<label for="uname">Name:</label> <br/>
-			<input type="text" id="uname" name="uname" size="20" required><br/><br/>
-            <label for="emailaddress">Email Address:</label> <br>
-			<input type="email" id="emailaddress" name="emailaddress" size="20"><br/><br/>
-            <label for="message">Message:</label> <br>
-			<input type="text" id="message" name="message" width="20" height="200"><br><br>
-            <br><br>
-		</fieldset>
-        <button id="submitbt" class="button">Submit</button>
-		</form>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="row" id="navbar">
+                <nav>
+                    <a href="index.html">Portfolio</a>
+                    <a href="about.html">About</a> 
+                    <a href="resume.pdf">Resume</a>
+                    <a href="contact.html" class="selected">Contact</a>
+                    <div id="name-nav">
+                        Ricky Lee &nbsp &nbsp &nbsp
+                    </div> 
+                </nav>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div id="contact-page">
+                <br><br>
+                <div id="title-con">
+                    <h1>CONTACT</h1>
+                </div>
+                
+                <!-- Contact Form -->
+                <h3>Feel free to contact me for any reason!</h3>
+                <div id="container-graph"></div>
+                <p>This form sends your message to my email.</p>
+                <form action="mailto:rickyl@andrew.cmu.edu" onsubmit="return validate()">
+                <fieldset>
+                    <label for="uname">Name:</label> <br/>
+                    <input type="text" id="uname" name="uname" size="20" required><br/><br/>
+                    <label for="emailaddress">Email Address:</label> <br>
+                    <input type="email" id="emailaddress" name="emailaddress" size="20"><br/><br/>
+                    <label for="message">Message:</label> <br>
+                    <textarea type="text" id="message" name="message">Type your message here!</textarea>
+                    <br><br>
+                </fieldset>
+                <button id="submitbt" class="button">Submit</button>
+                </form>
+                <br><br>
+            </div>
+        </div>
 
     </body>
 </html>
