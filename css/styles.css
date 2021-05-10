@@ -9,7 +9,6 @@ body {
 
 #home-page {
     background-color: #202C39;
-    overflow-x: hidden;
 }
 
 #background-home-page {
@@ -145,7 +144,7 @@ a {
 	font-size: 1.3em;
 	font-weight: 400;
     padding: 15px;
-    
+
 	color: #202C39;
 }
 
@@ -220,4 +219,14 @@ h1 {
 
 .proj-title {
     font-size: 1.5em;
+}
+
+#dl-title {
+    font-size: 2em;
+}
+
+#about-img {
+
+    width:100%;
+    height:auto;
 }

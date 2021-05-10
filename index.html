@@ -82,62 +82,78 @@
 
         <div class="container">
             <div id="portfolio-page">
-                <br><br><br>
+                <br><br>
                 <h1>
                     PORTFOLIO
                 </h1>
                 <br>
                 <div class="row">
                     <div class="col-xl-6">
-                        <img data-toggle="modal" data-target="#myModal" src="./images/placeholder-project.png">
+                        <img data-toggle="modal" data-target="#myModal" src="./images/placeholder-project.png" alt="Project 1">
                         <div class="proj-title">
-                            Project 1: Studying the effects of having pet cats on general happiness.
-                        </div>
-                    </div>
+                            Project 1: Studying the effects of having pet cats on general happiness. <br><br><br>
+                        </div>                  
+                    </div> 
                     <div class="col-xl-6">
-                        <a href="#"><img src="./images/placeholder-project.png"></a>
+                        <img data-toggle="modal" data-target="#myModal" src="./images/placeholder-project.png" alt="Project 2">
                         <div class="proj-title">
-                            Project 1: Studying the effects of having pet cats on general happiness.
+                            Project 2: Studying the effects of having pet dogs on general happiness.
                         </div>
                     </div>
-
                 </div>
 
-
-
+                <div class="row">
+                    <div class="col-xl-6">
+                        <img data-toggle="modal" data-target="#myModal" src="./images/placeholder-project.png" alt="Project 3">
+                        <div class="proj-title">
+                            Project 3: Studying the effects of having pet birds on general happiness. <br><br><br>
+                        </div>                  
+                    </div> 
+                    <div class="col-xl-6">
+                        <img data-toggle="modal" data-target="#myModal" src="./images/placeholder-project.png" alt="Project 4">
+                        <div class="proj-title">
+                            Project 4: Studying the effects of having pet rabbits on general happiness.
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-        <div class="container">
-            <h2>Modal Example</h2>
-            <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-          
+        <!-- Modal template taken from https://getbootstrap.com/docs/4.0/components/modal/-->
+        <div class="container" id="project-1">     
             <!-- Modal -->
             <div class="modal fade" id="myModal" role="dialog">
-              <div class="modal-dialog">
-              
+                <div class="modal-dialog">
                 <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>Some text in the modal.</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-                
-              </div>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Project: The Effect of Pet X on General Happiness</h4>
+                        </div>
+                    <div class="modal-body">
+                        <div class="proj-desc-modal">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div> <br>
+                        Downloadable Files
+                        <div class="downloadables">
+                            <a href="project-1.pdf">Final Paper</a> <br>
+                            <a href="project-1.pdf">Citations</a>
+                        </div> <br>
+                        Gallery
+                        <div class="images-modal">
+                            <a href="project-1.pdf">Charts</a> <br>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>    
             </div>
-            
-          </div>
-        <div class="spacer">
-            <br><br><br><br><br>
         </div>
+    </div>
+
 
     </body>
 </html>
